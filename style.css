@@ -1,0 +1,34 @@
+* {
+    background-color: #eceef1;
+}
+
+#wrapper {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/* header section */
+#header {
+    background-color: indigo;
+    padding: 20px;
+}
+
+/* main body section  */
+#main {
+    background-color: khaki;
+    /* padding: 20px; */
+}
+
+section#reg-form {
+    margin: 0 auto;
+    width: 20%;
+    padding: 80px;
+    border: 2px solid red;
+}
+
+
+/* footer section  */
+#footer {
+    background: lawngreen;
+    padding: 20px;
+}
