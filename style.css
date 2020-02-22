@@ -141,8 +141,10 @@ a{
     margin-bottom: 30px;
 }
 .password{
-    padding-bottom: 0px;
+    background: url('assets/lock-open.png') no-repeat 0 50%/21px 19px;
+    background-position-x: right 8px;    
 }
+
 .create-button{
     background: #0077c5;
     border: #0077c5;
@@ -164,6 +166,11 @@ a{
     cursor: pointer;
     user-select: none;
     font-size: 1.125em;
+}
+h4{
+    display: inline;
+    font-size: 14px;
+    padding-left: 2px;
 }
 .form-footer1{
     display: block;
