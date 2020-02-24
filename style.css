@@ -47,7 +47,7 @@ footer {
 
 p.info,
 a {
-  margin: 5px 5px 0px 0;
+  margin: 5px 5px 0 0;
   font-size: small;
 }
 
@@ -55,6 +55,7 @@ div.banner {
   text-align: center;
   font-size: small;
 }
+
 img.img {
   width: 330px;
   height: 95px;
@@ -62,7 +63,7 @@ img.img {
 
 h3 {
   color: grey;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 span.banner-item {
@@ -111,7 +112,7 @@ input[type=password] {
   width: 100%;
   box-sizing: border-box;
   resize: vertical;
-  }
+}
 
 .label {
   color: #404040;
