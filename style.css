@@ -90,16 +90,19 @@ a {
   font-weight: 300;
   line-height: 1.2;
   text-align: center;
+  padding: 10px;
 }
 
 .tit1 {
   line-height: 1.1;
   font-size: x-large;
   padding: 2
+}
+
 .form-footer1 {
   display: block;
   padding: 30px 60px 50px 60px;
-  text-align: center;0px;
+  text-align: center;
 }
 
 .input-section {
