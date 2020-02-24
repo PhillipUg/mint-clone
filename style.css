@@ -25,7 +25,7 @@ div.header-div {
 
 button {
     background-color: #0077c5;
-    border: 1px solid #000000;
+    border: 1px solid #000;
     border-radius: 5px;
     color: white;
     padding: 8px 17px 8px 17px;
@@ -143,14 +143,13 @@ input[type=email], input[type=tel], input[type=password] {
     display: block;
     font-size: 10px;
     min-height: 20px;
-    color: #444444;
+    color: #444;
     text-align: left;
     margin-bottom: 30px;
 }
 .password {
     background: url('assets/lock-open.png') no-repeat 0 50%/21px 19px;
-    background-position-x: right 8px;  
-
+    background-position-x: right 8px;
 }
 
 .create-button {
