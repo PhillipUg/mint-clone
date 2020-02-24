@@ -2,9 +2,8 @@
 This is a clone of [mint's SignUp page](https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26ivid%3Db1f889f4-5a3f-4d60-8b1d-a57a48322f66%26adobe_mc%3DMCMID%253D48900478372423339213394822308095886157%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1582531161%26ivid%3Db1f889f4-5a3f-4d60-8b1d-a57a48322f66)
 <br>
 <br>
-<img src="" width="300"> 
-<img src="" width="300">
-<img src="" width="300">
+<img src="assets/screenmint.jpg" width="400"> 
+<img src="assets/screenmint2.jpg" width="400">
 <br>
 
 In this project, our aim here wasn’t to produce an exact replica of [mint's SignUp page](https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26ivid%3Db1f889f4-5a3f-4d60-8b1d-a57a48322f66%26adobe_mc%3DMCMID%253D48900478372423339213394822308095886157%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1582531161%26ivid%3Db1f889f4-5a3f-4d60-8b1d-a57a48322f66), but rather to focus on making the various elements show up.
