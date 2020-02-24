@@ -35,7 +35,7 @@ button {
     box-sizing: border-box;
 }
 
-i#lock {
+i.lock {
     padding-right: 10px;
     background: transparent;
 }
@@ -170,12 +170,14 @@ input[type=email], input[type=tel], input[type=password] {
     font-size: large;
 }
 
-h4 {
+/* h4 {
     display: inline;
     font-size: 14px;
     padding-left: 2px;
+} */
+h6{
+    display: none;
 }
-
 .form-footer1 {
     display: block;
     padding: 30px 60px 50px 60px;
