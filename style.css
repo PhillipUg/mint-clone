@@ -40,12 +40,13 @@ i.lock {
   background: transparent;
 }
 
-div.header-signIn, 
+div.header-signIn,
 footer {
   font-size: small;
 }
 
-p.info, a {
+p.info,
+a {
   margin: 5px 5px 0 0;
   font-size: small;
 }
@@ -71,9 +72,8 @@ span.banner-item {
   cursor: pointer;
 }
 
-/* End of header styling */
-
-/* main body section  */
+/* End of header styling 
+  main body section  */
 a {
   color: #0077c5;
   text-decoration: none;
@@ -101,18 +101,12 @@ a {
   padding: 20px;
 }
 
-.form-footer1 {
-  display: block;
-  padding: 30px 60px 50px 60px;
-  text-align: center;
-}
-
 .input-section {
   margin: 0 40px 0 40px;
 }
 
-input[type=email], 
-input[type=tel], 
+input[type=email],
+input[type=tel],
 input[type=password] {
   width: 100%;
   box-sizing: border-box;
