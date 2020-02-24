@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #eceef1;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+/* header section */
+
+nav.header-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 5px 35px 5px 0;
+}
+
+button {
+  background-color: #0077c5;
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 17px 8px 17px;
+  margin: 2px;
+  cursor: pointer;
+  font-size: small;
+  box-sizing: border-box;
+}
+
+i.lock {
+  padding-right: 10px;
+  background: transparent;
+}
+
+div.header-signIn,
+footer {
+  font-size: small;
+}
+
+p.info,
+a {
+  margin: 5px 5px 0 0;
+  font-size: small;
+}
+
+div.banner {
+  text-align: center;
+  font-size: small;
+}
+
+img.img {
+  width: 330px;
+  height: 95px;
+}
+
+h3 {
+  color: grey;
+  margin-bottom: 0;
+}
+
+span.banner-item {
+  font-size: medium;
+  color: grey;
+  cursor: pointer;
+}
+
+/* End of header styling */
+
+/* main body section  */
+a {
+  color: #0077c5;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.title {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tit {
+  color: #4c4c4c;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.tit1 {
+  line-height: 1.1;
+  font-size: x-large;
+  padding: 20px;
+}
+
+.input-section {
+  margin: 0 40px 0 40px;
+}
+
+input[type=email],
+input[type=tel],
+input[type=password] {
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.label {
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+  display: block;
+  padding-bottom: 6px;
+  text-align: left;
+}
+
+.input {
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+  line-height: 1.3em;
+  color: #000;
+  outline: none;
+  font-size: 1.2em;
+  height: 34px;
+  width: 320px;
+  min-width: 160px;
+  padding-left: 8px;
+  padding-right: 6px;
+  margin-bottom: 30px;
+}
+
+.phone {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.phone-span {
+  padding: 5px;
+  padding-left: 0;
+  display: block;
+  font-size: 10px;
+  min-height: 20px;
+  color: #444;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.password {
+  background: url('assets/lock-open.png') no-repeat 0 50%/21px 19px;
+  background-position-x: right 8px;
+}
+
+.create-button {
+  background: #0077c5;
+  border: #0077c5;
+  border-radius: 4px;
+  width: 320px;
+  height: 44px;
+  color: #fff;
+  display: inline-block;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+  min-width: 100px;
+  padding: 6px 12px;
+  margin-bottom: 20px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: large;
+}
+
+h6 {
+  display: none;
+}
+
+.form-footer1 {
+  display: block;
+  padding: 30px 60px 50px 60px;
+  text-align: center;
+  font-style: italic;
+  color: #757575;
+  font-size: small;
+}
+
+.form-footer2 {
+  background-color: #eceef1;
+  display: block;
+  font-size: x-small;
+  color: #8d9096;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+a.policy {
+  font-size: x-small;
+}
+
+a.policy1 {
+  font-size: small;
+}
+
+main.reg-form {
+  margin: 0 auto;
+  width: 30%;
+  border: 1px solid lightgrey;
+  background-color: #fff;
+}
+
+/* End of main section  */
+
+/* footer section  */
+.footer {
+  text-align: center;
+  padding: 5px;
+  color: gray;
+  font-size: small;
+  margin: 20px 0 10px 0;
+}
+
+span.footer-item {
+  margin: 0 5px 0 5px;
+  cursor: pointer;
+}
+
+p.footer-p {
+  margin: 5px 0 0 0;
+}
+
+span.footer-item:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+p.footer-span {
+  margin: 10px 0 0 0;
+}
+
+/* End of footer section  */
