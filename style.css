@@ -40,12 +40,13 @@ i.lock {
   background: transparent;
 }
 
-div.header-signIn, footer {
+div.header-signIn, 
+footer {
   font-size: small;
 }
 
 p.info, a {
-  margin: 5px 5px 0px 0;
+  margin: 5px 5px 0 0;
   font-size: small;
 }
 
@@ -53,13 +54,15 @@ div.banner {
   text-align: center;
   font-size: small;
 }
+
 img.img {
   width: 330px;
   height: 95px;
 }
+
 h3 {
   color: grey;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 span.banner-item {
@@ -90,13 +93,12 @@ a {
   font-weight: 300;
   line-height: 1.2;
   text-align: center;
-  padding: 10px;
 }
 
 .tit1 {
   line-height: 1.1;
   font-size: x-large;
-  padding: 2
+  padding: 20px;
 }
 
 .form-footer1 {
@@ -109,11 +111,13 @@ a {
   margin: 0 40px 0 40px;
 }
 
-input[type=email], input[type=tel], input[type=password] {
+input[type=email], 
+input[type=tel], 
+input[type=password] {
   width: 100%;
   box-sizing: border-box;
   resize: vertical;
-  }
+}
 
 .label {
   color: #404040;
@@ -154,6 +158,7 @@ input[type=email], input[type=tel], input[type=password] {
   text-align: left;
   margin-bottom: 30px;
 }
+
 .password {
   background: url('assets/lock-open.png') no-repeat 0 50%/21px 19px;
   background-position-x: right 8px;
@@ -185,6 +190,7 @@ input[type=email], input[type=tel], input[type=password] {
 h6 {
   display: none;
 }
+
 .form-footer1 {
   display: block;
   padding: 30px 60px 50px 60px;
