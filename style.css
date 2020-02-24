@@ -16,7 +16,7 @@ body {
 
 /* header section */
 
-div.header-div {
+nav.header-div {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -207,7 +207,7 @@ a.policy1 {
   font-size: small;
 }
 
-section.reg-form {
+main.reg-form {
   margin: 0 auto;
   width: 30%;
   border: 1px solid lightgrey;
