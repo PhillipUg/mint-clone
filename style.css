@@ -9,14 +9,14 @@ body {
     background-color: #eceef1;
 }
 
-#wrapper {
+.wrapper {
     display: flex;
     flex-flow: column wrap;
 }
 
 /* header section */
 
-div#header-div {
+div.header-div {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -40,16 +40,16 @@ i.lock {
     background: transparent;
 }
 
-div#header-signIn, footer {
+div.header-signIn, footer {
     font-size: small;
 }
 
-p#info, a {
+p.info, a {
     margin: 5px 5px 0px 0;
     font-size: small;
 }
 
-div#banner {
+div.banner {
     text-align: center;
     font-size: small;
 }
@@ -149,7 +149,8 @@ input[type=email], input[type=tel], input[type=password] {
 }
 .password {
     background: url('assets/lock-open.png') no-repeat 0 50%/21px 19px;
-    background-position-x: right 8px;    
+    background-position-x: right 8px;  
+
 }
 
 .create-button {
@@ -175,7 +176,7 @@ input[type=email], input[type=tel], input[type=password] {
     font-size: 14px;
     padding-left: 2px;
 } */
-h6{
+h6 {
     display: none;
 }
 .form-footer1 {
@@ -204,7 +205,7 @@ a.policy1 {
     font-size: small;
 }
 
-section#reg-form {
+section.reg-form {
     margin: 0 auto;
     width: 30%;
     border: 1px solid lightgrey;
@@ -213,7 +214,7 @@ section#reg-form {
 /* End of main section  */
 
 /* footer section  */
-#footer {
+.footer {
     text-align: center;
     padding: 5px;
     color: gray;
@@ -235,7 +236,7 @@ span.footer-item:hover {
     color: black;
 }
 
-p#footer-span {
+p.footer-span {
     margin: 10px 0 0 0;
 }
 
