@@ -156,7 +156,7 @@ input[type=password] {
 
 .password {
   background: url('assets/lock-open.png') no-repeat 0 50%/21px 19px;
-  background-position-x: right 8px;
+  background-position: right 8px;
 }
 
 .create-button {
